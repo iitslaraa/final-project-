@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+html{
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background: #ffc3fb!important;
+
+}
+header{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    background: #ffc3fb!important;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px 0 0 0;
+}
+
+a{
+    text-decoration: none!important;
+    color: #443a3a !important;
+    transition: all .5s;
+}
+a:hover{
+    text-decoration: none!important;
+    color: #443a3a !important;
+}
+
+#stata{
+    padding: 100px 0;
+    background-image: url("https://i.ibb.co/JnpqJp4/istockphoto-922311638-170667a-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130vh;
+    text-align: center;
+}
+#stata span{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #ffffff;
+
+}
+input, textarea{
+    width: 50%;
+    text-align: center;
+}
+
+#total{
+    padding-top: 250px;
+    /*margin: auto 0;*/
+    /*vertical-align: center;*/
+    background-image: url("https://i.ibb.co/XDKV6NX/123-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 130vh;
+}
+#total p{
+    background-color: white;
+    color: black;
+}
+#btn {
+    border: none;
+    border-radius: 100px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    transition: all .5s;
+}
+#btn:hover {
+    outline: 2px solid red;
+    border-radius: 100px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    transition: all .8s;
+}
+footer{
+    padding: 10px;
+    border-top: 1px solid black;
+}
+p{
+    transition: all .5s;
+    padding: 5px 0;
+}
+p:hover{
+    font-size: 25px;
+}
+input, textarea{
+    border: none;
+    border-radius: 10px;
+    transition: outline .5s;
+}
+input:focus, textarea:focus{
+    outline: 2px dashed red;
+}
